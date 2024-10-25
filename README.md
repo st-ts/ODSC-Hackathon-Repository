@@ -2,7 +2,7 @@
 
 Welcome to the central repository for the ODSC West 2024 Hackathon with NVIDIA!
 
-❔ For more information on the hackathon itself, check out [this webpage](https://odsc.com/california/hackathon/) or [this FAQ](https://docs.google.com/document/d/1jhw9V79gxOr8tGxkIN-hEkiN9htXye7ev0IRYoT8uEc/edit?tab=t.0). ❔
+❔ For more information on the hackathon itself, check out [this webpage](https://odsc.com/california/hackathon/) or [this FAQ](https://docs.google.com/document/d/1W_ClcEYBsNeLvDZSYImYG1CrrSTSj7Fo_ZOE_Ev1D1k/edit?tab=t.0#heading=h.8eu9ji7smdv6). ❔
 
 ## Overview of the Hackathon:
 
