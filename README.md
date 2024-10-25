@@ -15,7 +15,15 @@ You are free to:
 - Modify, Augment (with SDG, etc) the training dataset
 - Modify the NeMo Curator curation pipeline
 
-Your (or your team's) scores will be based on multi-class F1 scores, determined by comparing your generated predictions on the submission dataset against the held-out labels. In the event of tiebreaks, we will refer to the scoring rubric available [here](#NEED_LINK)
+### Scoring:
+
+Your (or your team's) scores will be based on multi-class F1 scores, determined by comparing your generated predictions on the submission dataset against the held-out labels. 
+
+In case of the ties, we will be using the videos you submitted to gauge your understanding of the data, NeMo curator, and NeMo framework:
+- Understanding the data and usage of the NeMo Curator
+- Deep understanding of data processing pipeline. Usage of the most relevant data processing steps.
+- Understanding the fine-tuning and usage of the NeMo framework	
+- Excellent grasp of fine-tuning techniques and using various hyperparameters for optimal model accuracy and customization.
 
 ## Overview of this Repository
 
@@ -28,16 +36,16 @@ There are a total of three Jupyter Notebooks to work through:
 2. [Downloading the Model](https://github.com/chrisalexiuk-nvidia/ODSC-Hackathon-Repository/blob/main/step-2-download-model.ipynb)
   - This notebook will download the model and convert it to a NeMo FW compatible format
 3. [Training a LoRA Adapter](https://github.com/chrisalexiuk-nvidia/ODSC-Hackathon-Repository/blob/main/step-3-training.ipynb)
-  - This notebook will walkthrough how to fine-tune the model using PEFT LoRA, and then how to generate submission responses
+  - This notebook will go through how to fine-tune the model using PEFT LoRA, and then how to generate submission responses
 
 ## Deliverables
 
-You must submit (according to [this form](#NEED_FORM)) in a *SINGLE* Google Drive:
+You must submit (according to [this form](https://docs.google.com/forms/d/e/1FAIpQLSf3zeyPKXqs6Bhe_wmPRA-fzKncm_aNlliZAOMIsW7NUYr6kg/viewform)) in a *SINGLE* Google Drive:
 
 1. Your predicted tag submission `.JSONL` file.
 2. Your LoRA Adapters
 3. Your notebooks (with outputs)
-4. A 3min. Loom video explaining your process (code walkthrough not required).
+4. A 3min. video explaining your process (code walkthrough not required).
 
 ## Conclusion
 
