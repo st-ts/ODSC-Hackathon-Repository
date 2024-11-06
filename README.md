@@ -5,7 +5,7 @@ The repo has my solution to the task given by ODSC team.
 I have used [NeMo](https://github.com/NVIDIA/NeMo) and [llama-3.1-nemotron-70b-instruct](https://build.nvidia.com/nvidia/llama-3_1-nemotron-70b-instruct). Synthetic data was generated in 2 ways:
 - Generating questions based on real provided answers
 - Paraphrasing the questions
-In accordance with this, I have used the original dataset and carefully curated it to only include highly rated questions and answers
+For this step, I wanted to maximize the quality of the generated data,  which is why I curated the original dataset to only contain the highest rated answers and somewhat well rated questions.
 1. Modyfying data curation  
 Here, I have changed the following:
 - Parameters related to the length of questions and their scores
