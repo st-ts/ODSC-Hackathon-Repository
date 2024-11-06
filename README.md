@@ -1,4 +1,23 @@
-# ODSC West 2024 Hackathon with NVIDIA
+# ODSC West 2024 Hackathon with NVIDIA  
+The repo has my solution to the task given by ODSC team. 
+## Overview of the solution:  
+0. Synthetic data generation  
+I have used [NeMo](https://github.com/NVIDIA/NeMo) and [llama-3.1-nemotron-70b-instruct](https://build.nvidia.com/nvidia/llama-3_1-nemotron-70b-instruct). Synthetic data was generated in 2 ways:
+- Generating questions based on real provided answers
+- Paraphrasing the questions
+In accordance with this, I have used the original dataset and carefully curated it to only include highly rated questions and answers
+1. Modyfying data curation  
+Here, I have changed the following:
+- Parameters related to the length of questions and their scores
+- I made the prompt to be more specific about what kind of tags it needs to generate  
+2. Adjusting the fine truning parameters
+Most impactful parameter adjustments:
+- Increased micro_batch_size and adjusted global_batch_size for more effective learning  
+- Set trainer.max_steps higher to provide sufficient training time for better F1.
+- Set val_check_interval lower to monitor performance, enabling early stopping if the F1 score plateaus.
+- Had to work out the memory limitations  
+
+# Original information below:  
 
 Welcome to the central repository for the ODSC West 2024 Hackathon with NVIDIA!
 
