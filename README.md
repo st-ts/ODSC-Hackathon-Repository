@@ -1,4 +1,5 @@
 # ODSC West 2024 Hackathon with NVIDIA  
+## Great news - this solution won the 3rd prize, can't wait to build a new PC with it  
 The repo has my solution to the task given by ODSC team. 
 ## Overview of the solution:  
 0. Synthetic data generation  
